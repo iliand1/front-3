@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+#Sedan {
+  background-color: #e38826;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#Sedan .button {
+  color: #e38826;
+}
+
+#SUVs {
+  background-color: #006970;
+}
+
+#SUVs .button {
+  color: #006970;
+}
+
+#Luxury {
+  background-color: #004241;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#Luxury .button {
+  color: #004241;
+}
+
+.cards {
+  height: 450px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.card {
+  width: 300px;
+  padding: 40px;
+}
+
+h1, p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+p {
+  font-size: 400;
+  line-height: 1.7;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-size: 700;
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 400;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  background-color: white;
+}
