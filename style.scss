@@ -84,16 +84,15 @@ h1{
     background-color: $gray-bc-h-buttons;
 }
 
-@media (max-width:376px){
+@media (max-width:500px){
     body{
         width: $mobile-width;
         background-color: white;
         height: 1500px;
+        margin: 0 auto;
     }
     .cards{
         flex-direction: column;
-        margin-top: 20px;
-        margin-left: 10px;
     }
     .card{
         width: 250px;
