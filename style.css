@@ -99,9 +99,10 @@ h1 {
 
 @media (max-width: 500px) {
   body {
-    width: 375px;
     background-color: white;
     height: 1500px;
+  }
+  main {
     margin: 0 auto;
   }
   .cards {
@@ -109,6 +110,8 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
   }
   .card {
     width: 250px;

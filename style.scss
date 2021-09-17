@@ -86,13 +86,16 @@ h1{
 
 @media (max-width:500px){
     body{
-        width: $mobile-width;
         background-color: white;
         height: 1500px;
-        margin: 0 auto;
+    }
+    main{
+        margin:0 auto
     }
     .cards{
         flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
     }
     .card{
         width: 250px;
@@ -100,7 +103,7 @@ h1{
     #Sedan{
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
-    border-bottom-left-radius:0 ;}
+        border-bottom-left-radius:0 ;}
     #Luxury{
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
