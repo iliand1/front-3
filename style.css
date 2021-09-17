@@ -9,12 +9,24 @@
   color: #e38826;
 }
 
+#Sedan .button:hover {
+  color: #f2f2f2;
+  background-color: #e38826;
+  border: 2px solid #f2f2f2;
+}
+
 #SUVs {
   background-color: #006970;
 }
 
 #SUVs .button {
   color: #006970;
+}
+
+#SUVs .button:hover {
+  color: #f2f2f2;
+  background-color: #006970;
+  border: 2px solid #f2f2f2;
 }
 
 #Luxury {
@@ -25,6 +37,12 @@
 
 #Luxury .button {
   color: #004241;
+}
+
+#Luxury .button:hover {
+  color: #f2f2f2;
+  background-color: #004241;
+  border: 2px solid #f2f2f2;
 }
 
 .cards {
@@ -76,5 +94,5 @@ h1 {
   font-size: 400;
   font-family: "Lexend Deca";
   font-size: 15px;
-  background-color: white;
+  background-color: #f2f2f2;
 }
